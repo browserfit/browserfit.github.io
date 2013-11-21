@@ -2,6 +2,9 @@ safe: false
 name: BrowserFIT
 description: kickstart your responsive workflow
 
+gaaccount: UA-45909125-1
+domain: browserfit.github.io
+
 author:
   name: Átila Fassina
   email: hey@atilafassina.com

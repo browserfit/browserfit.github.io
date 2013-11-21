@@ -5,6 +5,8 @@ Starting a RWD workflow may be confusing and overwhelming, so this whole project
 Althought the project's priority is to give people a safe and direct guide to kickstart a project, there are no constraints to where it can lead.
 Therefore, feel free to contribute with any information you'd like, being it for beginners or advanced users.
 
+Check it the at [browserfit.github.io](http://browserfit.github.io)
+
 ##Roadmap
 
 ###Texts
