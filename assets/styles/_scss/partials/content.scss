@@ -1,0 +1,62 @@
+.workflowTip {
+    /*
+    &:nth-child(n+1) {
+        background:wheat;
+    }
+    &:nth-child(n+2) {
+        background-color:firebrick;
+    }
+    &:nth-child(n+3) {
+        background-color:lawngreen;
+    }
+    */
+    @media #{$bp-wide-view} {
+        padding:0 20vw;
+    }
+    @at-root #{&}-title {
+        height:2em;
+        line-height:2em;
+        padding:0 1em;
+        font-size:1.6em;
+        display:block;
+        /*background-color:rgba(0,0,0,.6);
+        color:#FFF;*/
+        color:$font-color;
+        border-bottom:solid 3px $highlight;
+    }
+    p {
+        padding:1em;
+    }
+    ol {
+        display:block;
+        width:80%;
+        margin:0 auto;
+        margin-bottom:1em;
+        list-style-position:inside;
+    }
+    li {
+        margin-top:1em;
+    }
+
+    footer {
+        padding:3em 0;
+        &::after {
+            content:"";
+            clear:both;
+        }
+    }
+}
+
+
+.editLink {
+    float:right;
+    padding:.2em .5em;
+    text-decoration:none;
+    color:$highlight;
+    transition:all 200ms linear;
+}
+.editLink:hover,
+.editLink:focus {
+    background-color:$highlight;
+    color:$font-color--light;
+}

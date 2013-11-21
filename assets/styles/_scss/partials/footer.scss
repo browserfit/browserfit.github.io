@@ -1,0 +1,27 @@
+.bottom {
+    border-top:dashed 1px $bkg;
+    background-color:$bkg--dark;
+    ul {
+        text-align:center;
+    }
+    li {
+        color:$font-color--light;
+        margin:.5em 0;
+    }
+    @media #{$bp-wide-view} {
+    li {
+        margin:.5em;
+        display:inline-block;
+        &:not(:first-of-type)::before {
+            content:"|";
+            margin:0 2em;
+            display:inline-block;
+        }
+    }
+    }
+}
+
+.mainAuthor {
+    color:$highlight--light;
+    font-weight:bold;
+}

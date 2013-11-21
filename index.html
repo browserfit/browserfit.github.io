@@ -1,0 +1,24 @@
+---
+layout: default
+title: BrowserFIT - Kickstart your own responsive workflow
+---
+
+<div id="home">
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li id='{{ post.link }}' class="workflowTip">
+        <!--<span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>-->
+        <header>
+            <h2 class="workflowTip-title">
+                {{ post.title }}
+            </h2>
+        </header>
+        <article>
+            {{ post.content }}
+        <footer>
+              <a class="editLink" target="_blank" href="https://github.com/browserfit/browserfit.github.io/_posts/{{ post.urlName }}">edit</a>
+        </footer>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

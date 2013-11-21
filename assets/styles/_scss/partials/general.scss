@@ -1,0 +1,48 @@
+.adviceTxt {
+    margin:3em auto;
+    padding:1em;
+    //padding:5em 10vw;
+    font-size:1.2em;
+    line-height:1.4;
+    background-color:$highlight;
+    color:$font-color--light;
+    border-top:solid 2px #FFF;
+    border-bottom:solid 2px #FFF;
+    box-shadow:0 0 0 4px $highlight;
+    p {
+        margin-bottom:2em;
+    }
+    @media #{$bp-mid-view} {
+        padding:5vw;
+    }
+    @media #{$bp-wide-view} {
+        padding:5vh 20vw;
+    }
+}
+
+.extLink--light {
+    color:#FFF;
+    text-decoration:none;
+}
+
+.extLink--light:hover,
+.extLink--light:focus {
+    border-bottom:dotted 1px #FFF;
+}
+
+.btns-wrap {
+    width:100%;
+    padding-bottom:2em;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.btn-link--light {
+    padding:1em .5em;
+    background-color:$bkg;
+    color:$highlight;
+    text-decoration:none;
+    font-size:1.2em;
+    border-radius:5px;
+}

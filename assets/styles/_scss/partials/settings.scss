@@ -1,0 +1,28 @@
+// VARIABLES
+//==========
+
+
+$purple--base: rgb(120,90,170);
+$purple--light:lighten($purple--base, 20%);
+$purple--dark: darken($purple--base, 40%);
+
+$grey--base:   rgb(200,200,200);
+$grey--light:  lighten($grey--base, 20%);
+$grey--dark:   darken($grey--base, 50%);
+
+$bkg:       $grey--light;
+$bkg--dark: $grey--dark;
+
+$highlight:        $purple--base;
+$highlight--light: $purple--light;
+$highlight--dark:  $purple--dark;
+
+$font-color:        rgb(50,50,50);
+$font-color--light: rgb(230,230,230);
+// -----------
+// Breakpoints
+// -----------
+$bp-mid-view: "(min-width: 31.25em)";
+
+$bp-wide-view: "(min-width: 48.75em)";
+$tp-wide-view-1: "(min-width: 71.8em)";

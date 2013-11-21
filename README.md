@@ -5,6 +5,21 @@ Starting a RWD workflow may be confusing and overwhelming, so this whole project
 Althought the project's priority is to give people a safe and direct guide to kickstart a project, there are no constraints to where it can lead.
 Therefore, feel free to contribute with any information you'd like, being it for beginners or advanced users.
 
+##Roadmap
+
+###Texts
+- Mobile-First
+- Styleguides
+- Stylesheet Methodologies
+- Measurement Units
+- Media Queries & Breakpoints
+
+###Project
+- How to contribute
+- Editor's config
+- Organizing structure
+- PT-BR version
+
 ##Collaborate
 
 Feel free to help in any way that suits you most.
@@ -15,6 +30,6 @@ You can even help by requesting new things.
 
 ##Contribuitors
 
-- Átila Fassina - Project Lead
-- Natalia Lassance - Visual Designer
+- Átila Fassina - Project Development
+- Natalia Lassance - Brand Design
 - You!

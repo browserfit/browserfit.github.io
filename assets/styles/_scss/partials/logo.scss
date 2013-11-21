@@ -1,0 +1,26 @@
+.logo--narrow {
+    display:block;
+}
+.logo--normal {
+    display:none;
+}
+
+.logo--wide {
+    display:none;
+}
+@media #{$bp-mid-view} {
+    .logo--narrow {
+        display:none;
+    }
+    .logo--normal {
+        display:block;
+    }
+}
+@media #{$bp-wide-view} {
+    .logo--normal {
+        display:none;
+    }
+    .logo--wide {
+        display:block;
+    }
+}

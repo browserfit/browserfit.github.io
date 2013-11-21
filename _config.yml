@@ -1,0 +1,16 @@
+safe: false
+name: BrowserFIT
+description: kickstart your responsive workflow
+
+author:
+  name: Átila Fassina
+  email: hey@atilafassina.com
+  github: atilafassina
+  twitter: atilafassina
+
+include: ['.htaccess']
+permalink: /:title
+future: true
+show_drafts: true
+markdown: redcarpet
+pygments: true
