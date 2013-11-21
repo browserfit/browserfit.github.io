@@ -1,3 +1,7 @@
+svg {
+    // mobile fallback for flexbox on .top
+    margin:2.5em auto;
+}
 .logo--narrow {
     display:block;
 }

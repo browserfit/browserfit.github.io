@@ -39,10 +39,14 @@
 }
 
 .btn-link--light {
+    //fallback mobile - not supporting flexbox on .btns-wrap
+    display:block;
+    margin:0 auto;
     padding:1em .5em;
     background-color:$bkg;
     color:$highlight;
     text-decoration:none;
     font-size:1.2em;
     border-radius:5px;
+    text-align:center;
 }

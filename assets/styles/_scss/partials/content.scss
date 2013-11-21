@@ -1,15 +1,4 @@
 .workflowTip {
-    /*
-    &:nth-child(n+1) {
-        background:wheat;
-    }
-    &:nth-child(n+2) {
-        background-color:firebrick;
-    }
-    &:nth-child(n+3) {
-        background-color:lawngreen;
-    }
-    */
     @media #{$bp-wide-view} {
         padding:0 20vw;
     }
@@ -19,8 +8,6 @@
         padding:0 1em;
         font-size:1.6em;
         display:block;
-        /*background-color:rgba(0,0,0,.6);
-        color:#FFF;*/
         color:$font-color;
         border-bottom:solid 3px $highlight;
     }
@@ -39,14 +26,13 @@
     }
 
     footer {
-        padding:3em 0;
+        padding:1.5em 0;
         &::after {
             content:"";
             clear:both;
         }
     }
 }
-
 
 .editLink {
     float:right;
