@@ -362,12 +362,7 @@ table {
   font-variant: small-caps; }
 
 .mainMenu {
-  margin: 2em auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap; }
+  margin: 2em auto; }
   .mainMenu a {
     display: inline-block;
     width: 100%;
@@ -383,12 +378,14 @@ table {
       content: "#"; }
   @media (min-width: 31.25em) {
     .mainMenu {
-      height: 20em; }
+      width: 100%; }
       .mainMenu a {
-        padding: 1em;
-        width: auto; } }
+        width: 45%; }
+        .mainMenu a:nth-child(odd) {
+          margin-left: 5%; } }
   @media (min-width: 48.75em) {
     .mainMenu {
+      display: flex;
       height: auto;
       flex-direction: row; } }
   @media (min-width: 71.8em) {
@@ -422,29 +419,45 @@ svg {
 
   .logo--wide {
     display: block; } }
+@media (min-width: 31.25em) {
+  .workflowTip {
+    padding: 0 10%; } }
 @media (min-width: 48.75em) {
   .workflowTip {
-    padding: 0 20vw; } }
+    padding: 0 15%; } }
 .workflowTip-title {
   height: 2em;
   line-height: 2em;
-  padding: 0 1em;
+  padding: 2.5em 1em 0;
   font-size: 1.6em;
   display: block;
   color: #323232;
-  border-bottom: solid 3px #785aaa; }
+  border-bottom: solid 3px #785aaa;
+  -ms-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box; }
 .workflowTip p {
   padding: 1em; }
-.workflowTip ol {
+.workflowTip ol,
+.workflowTip ul {
   display: block;
-  width: 80%;
+  width: 98%;
   margin: 0 auto;
   margin-bottom: 1em;
   list-style-position: inside; }
+  @media (min-width: 48.75em) {
+    .workflowTip ol,
+    .workflowTip ul {
+      width: 80%; } }
 .workflowTip li {
   margin-top: 1em; }
+.workflowTip a {
+  color: #785aaa;
+  text-decoration: none; }
+  .workflowTip a:hover, .workflowTip a:focus {
+    border-bottom: dotted 1px #785aaa; }
 .workflowTip footer {
-  padding: 1.5em 0; }
+  padding: 1.5em 0 .5em; }
   .workflowTip footer::after {
     content: "";
     clear: both; }

@@ -23,7 +23,9 @@
             </article>
         </header>
         <nav class="mainMenu">
-            <a href="#content-first">Content-First</a>
+            {% for post in site.posts %}
+            <a href="#{{ post.link }}">{{ post.title }}</a>
+            {% endfor %}
         </nav>
         <section class="adviceTxt">
             <p>

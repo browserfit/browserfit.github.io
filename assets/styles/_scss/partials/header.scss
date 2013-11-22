@@ -28,11 +28,6 @@
 }
 .mainMenu {
     margin:2em auto;
-    display:flex;
-    flex-direction:column;
-    justify-content:space-around;
-    align-items:center;
-    flex-wrap: wrap;
     a {
         display:inline-block;
         width:100%;
@@ -51,14 +46,16 @@
         }
     }
     @media #{$bp-mid-view} {
-        height:20em;
-        //height:40vh;
+        width:100%;
         a {
-            padding:1em;
-            width:auto;
+            width:45%;
+            &:nth-child(odd) {
+                margin-left:5%;
+            }
         }
     }
     @media #{$bp-wide-view} {
+        display:flex;
         height:auto;
         flex-direction:row;
     }

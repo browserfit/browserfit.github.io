@@ -1,32 +1,49 @@
 .workflowTip {
+    @media #{$bp-mid-view} {
+        padding:0 10%;
+    }
     @media #{$bp-wide-view} {
-        padding:0 20vw;
+        padding:0 15%;
     }
     @at-root #{&}-title {
         height:2em;
         line-height:2em;
-        padding:0 1em;
+        padding:2.5em 1em 0;
         font-size:1.6em;
         display:block;
         color:$font-color;
         border-bottom:solid 3px $highlight;
+        -ms-box-sizing:content-box;
+        -moz-box-sizing:content-box;
+        box-sizing:content-box;
     }
     p {
         padding:1em;
     }
-    ol {
+    ol,
+    ul {
         display:block;
-        width:80%;
+        width:98%;
         margin:0 auto;
         margin-bottom:1em;
         list-style-position:inside;
+        @media #{$bp-wide-view} {
+            width:80%;
+        }
     }
     li {
         margin-top:1em;
     }
-
+    a {
+        color:$highlight;
+        text-decoration:none;
+        &:hover,
+        &:focus {
+            border-bottom:dotted 1px $highlight;
+        }
+    }
     footer {
-        padding:1.5em 0;
+        padding:1.5em 0 .5em;
         &::after {
             content:"";
             clear:both;
