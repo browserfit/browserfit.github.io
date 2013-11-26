@@ -10,9 +10,6 @@ Check it the at [browserfit.github.io](http://browserfit.github.io)
 ##Roadmap
 
 ###Texts
-- Mobile-First
-- Styleguides
-- Stylesheet Methodologies
 - Measurement Units
 - Media Queries & Breakpoints
 
