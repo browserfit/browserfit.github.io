@@ -459,6 +459,13 @@ svg {
   .workflowTip blockquote p::before {
     content: "ProTip:";
     color: #785aaa; }
+.workflowTip code {
+  font-size: .8em;
+  padding: .25em .5em;
+  background: #e2e2e2;
+  font-family: Monaco, "Courier New", monospace;
+  border: solid 1px #fbfbfb;
+  border-radius: 5px; }
 .workflowTip footer {
   padding: 1.5em 0 .5em; }
   .workflowTip footer::after {

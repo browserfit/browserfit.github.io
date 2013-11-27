@@ -51,6 +51,14 @@
             color:$highlight;
         }
     }
+    code {
+        font-size:.8em;
+        padding:.25em .5em;
+        background:darken($bkg, 10%);
+        font-family: Monaco, "Courier New", monospace;
+        border:solid 1px $bkg;
+        border-radius:5px;
+    }
     footer {
         padding:1.5em 0 .5em;
         &::after {

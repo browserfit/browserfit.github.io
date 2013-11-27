@@ -9,9 +9,6 @@ Check it the at [browserfit.github.io](http://browserfit.github.io)
 
 ##Roadmap
 
-###Texts
-- Media Queries & Breakpoints
-
 ###Project
 - How to contribute
 - Editor's config
