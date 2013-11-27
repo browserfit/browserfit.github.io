@@ -378,9 +378,7 @@ table {
     .mainMenu {
       width: 100%; }
       .mainMenu a {
-        width: 45%; }
-        .mainMenu a:nth-child(odd) {
-          margin-left: 5%; } }
+        width: 45%; } }
   @media (min-width: 48.75em) {
     .mainMenu {
       display: flex;

@@ -46,9 +46,6 @@
         width:100%;
         a {
             width:45%;
-            &:nth-child(odd) {
-                margin-left:5%;
-            }
         }
     }
     @media #{$bp-wide-view} {
