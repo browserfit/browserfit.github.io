@@ -41,9 +41,6 @@
         &:focus {
             color:$highlight;
         }
-        &::before {
-            content:"#";
-        }
     }
     @media #{$bp-mid-view} {
         width:100%;

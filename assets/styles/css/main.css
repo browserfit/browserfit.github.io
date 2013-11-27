@@ -374,8 +374,6 @@ table {
     color: #1a1325; }
     .mainMenu a:hover, .mainMenu a:focus {
       color: #785aaa; }
-    .mainMenu a::before {
-      content: "#"; }
   @media (min-width: 31.25em) {
     .mainMenu {
       width: 100%; }
@@ -436,19 +434,17 @@ svg {
   -ms-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box; }
+.workflowTip h3 {
+  margin-top: 2em;
+  margin-left: .5em; }
 .workflowTip p {
   padding: 1em; }
 .workflowTip ol,
 .workflowTip ul {
   display: block;
-  width: 98%;
+  width: 80%;
   margin: 0 auto;
-  margin-bottom: 1em;
-  list-style-position: inside; }
-  @media (min-width: 48.75em) {
-    .workflowTip ol,
-    .workflowTip ul {
-      width: 80%; } }
+  margin-bottom: 1em; }
 .workflowTip li {
   margin-top: 1em; }
 .workflowTip a {
@@ -456,6 +452,13 @@ svg {
   text-decoration: none; }
   .workflowTip a:hover, .workflowTip a:focus {
     border-bottom: dotted 1px #785aaa; }
+.workflowTip blockquote {
+  text-align: center;
+  width: 100%;
+  font-size: 1.2em; }
+  .workflowTip blockquote p::before {
+    content: "ProTip:";
+    color: #785aaa; }
 .workflowTip footer {
   padding: 1.5em 0 .5em; }
   .workflowTip footer::after {

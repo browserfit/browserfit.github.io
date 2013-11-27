@@ -10,7 +10,6 @@ Check it the at [browserfit.github.io](http://browserfit.github.io)
 ##Roadmap
 
 ###Texts
-- Measurement Units
 - Media Queries & Breakpoints
 
 ###Project

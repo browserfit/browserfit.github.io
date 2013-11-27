@@ -17,19 +17,19 @@
         -moz-box-sizing:content-box;
         box-sizing:content-box;
     }
+    h3 {
+        margin-top:2em;
+        margin-left:.5em;
+    }
     p {
         padding:1em;
     }
     ol,
     ul {
         display:block;
-        width:98%;
+        width:80%;
         margin:0 auto;
         margin-bottom:1em;
-        list-style-position:inside;
-        @media #{$bp-wide-view} {
-            width:80%;
-        }
     }
     li {
         margin-top:1em;
@@ -40,6 +40,15 @@
         &:hover,
         &:focus {
             border-bottom:dotted 1px $highlight;
+        }
+    }
+    blockquote {
+        text-align:center;
+        width:100%;
+        font-size:1.2em;
+        p::before {
+            content:"ProTip:";
+            color:$highlight;
         }
     }
     footer {

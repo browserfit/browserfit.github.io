@@ -10,8 +10,9 @@ $grey--base:   rgb(200,200,200);
 $grey--light:  lighten($grey--base, 20%);
 $grey--dark:   darken($grey--base, 50%);
 
-$bkg:       $grey--light;
-$bkg--dark: $grey--dark;
+$bkg:           $grey--light;
+$bkg--standout: $grey--base;
+$bkg--dark:     $grey--dark;
 
 $highlight:        $purple--base;
 $highlight--light: $purple--light;
